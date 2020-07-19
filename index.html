@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords"
+          content="unemployed work search money">
+    <meta name="description"
+          content="i have no money because i am unemployed so i want to get new job that's why i here">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grid</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+</head>
+
+<body>
+
+<header>
+
+    <div class="header-top">
+
+        <div class="logo">
+            <img src="img/logo.png" alt="logo">
+            <p> Theyalow </p>
+            <span>Craft By Css author.com</span>
+        </div>
+
+        <nav>
+            <a src="">
+                <div class="nav-icon-man"></div>
+                <div class="nav-text"> About us</div>
+            </a>
+            <a src="">
+                <div class="nav-icon-tool"></div>
+                <div class="nav-text"> Services</div>
+            </a>
+            <a src="">
+                <div class="nav-icon-letter"></div>
+                <div class="nav-text"> Contact</div>
+            </a>
+        </nav>
+
+    </div>
+
+    <ul class="slider">
+        <li>
+            <iframe width="640" height="450" src="https://www.youtube.com/embed/ZWls3Zt9C2M" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            <div class="slider-text">The cool<br><span>the minimal </span></div>
+        </li>
+        <li>
+            <iframe width="640" height="450" src="https://www.youtube.com/embed/DWcJFNfaw9c" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            <div class="slider-text">The cool<br><span>the minimal</span></div>
+        </li>
+    </ul>
+
+    <div class="video">
+        <iframe width="640" height="450" src="https://www.youtube.com/embed/ZWls3Zt9C2M" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+
+        </iframe>
+    </div>
+
+</header>
+
+<main>
+
+    <div class="features-block">
+        <div class="feature">
+            <div class="features-icon-cloud"></div>
+            <div class="features-text">better design</div>
+        </div>
+        <div class="feature">
+            <div class="features-icon-leaf"></div>
+            <div class="features-text">customize</div>
+        </div>
+        <div class="feature">
+            <div class="features-icon-plane"></div>
+            <div class="features-text">its free</div>
+        </div>
+    </div>
+
+    <div class="blog ">
+        <div class="blog-wrap">
+            <h1> Lorem ipsum dolor sit amet</h1>
+
+            <div class="article">
+                <div class="article-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                </div>
+                <div class="articl-date">
+                   <p> 24<span>апреля</span></p>
+                </div>
+                <div class="article-video">
+                    <iframe width="315" height="230" src="https://www.youtube.com/embed/ZWls3Zt9C2M" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+
+            <div class="twitter">
+                <div class="img"><img src="img/twitter.png"></div>
+                <div class="comments">
+                    <div class="comm comm-1">
+                        Daily Mobile UI Design Inspiration #1
+                        via @cssauthor
+                    </div>
+                    <div class="comm">
+                        Daily Mobile UI Design Inspiration #1
+                        via @cssauthor
+                    </div>
+                    <div class="comm">
+                        Daily Mobile UI Design Inspiration #1
+                        via @cssauthor
+                    </div>
+                    <div class="enter">
+                        <textarea name="comment" rows="1"></textarea>
+                        <input type="submit" name="tweet" value="Tweet">
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+
+    <div class="information">
+        <h1> Lorem ipsum dolor sit amet</h1>
+        <div class="promo">Its 100% Free</div>
+
+        <ul>
+            <li>Sed ut perspiciatis unde omnis</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing</li>
+            <li>Sed ut perspiciatis unde omnis</li>
+            <li>Lorem ipsum dolor sit amet, consectetur</li>
+        </ul>
+    </div>
+
+</main>
+
+<footer>
+
+    <div class="logo">
+        <img src="img/logo.png" alt="logo">
+        <p> Theyalow </p>
+
+    </div>
+
+    <div class="author">
+        Designed by cssauthor.com
+    </div>
+
+</footer>
+
+<script type="text/javascript">
+    $('.slider').slick({
+        dots: true,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear',
+        arrows: true
+    });
+
+</script>
+
+<script type="text/javascript">
+
+    document.querySelector('.nav-icon-man');
+    document.querySelector('nav');
+    let onActive = document.querySelector('nav');
+    onActive.onclick = function () {
+        console.log('Yes');
+    }
+
+</script>
+
+</body>
+</html>
