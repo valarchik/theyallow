@@ -440,6 +440,9 @@ body main .features-block .feature {
   align-items: center;
   padding: 35px 20px;
 }
+body main .features-block .feature .img {
+  transition-duration: 1s;
+}
 @media screen and (min-width: 1070px) {
   body main .features-block .feature {
     flex-basis: 330px;
@@ -971,6 +974,14 @@ footer {
   color: white;
   display: flex;
   justify-content: space-between;
+}
+footer .hello {
+  display: flex;
+  align-items: center;
+}
+footer .hello button {
+  margin-left: 20px;
+  height: 40px;
 }
 @media screen and (min-width: 870px) {
   footer {
