@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21f6ac98-0df3-42c9-aa69-7692270fcd09" name="Default Changelist" comment="added tabs">
-      <change afterPath="$PROJECT_DIR$/bash.exe.stackdump" afterDir="false" />
+    <list default="true" id="21f6ac98-0df3-42c9-aa69-7692270fcd09" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/game.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" />
     </list>
     <list id="24fbb29a-1a23-4c56-91a4-bc2219a3fc8c" name="IDEA" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -98,7 +95,7 @@
       <workItem from="1601475027111" duration="3061000" />
       <workItem from="1602241431506" duration="22339000" />
       <workItem from="1602772035581" duration="8524000" />
-      <workItem from="1617643753967" duration="346000" />
+      <workItem from="1617643753967" duration="822000" />
     </task>
     <task id="LOCAL-00001" summary="added tabs">
       <created>1596450645123</created>
@@ -128,7 +125,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601475565938</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="remove training js code">
+      <created>1617644203065</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617644203065</updated>
+    </task>
+    <task id="LOCAL-00006" summary="remove training js code">
+      <created>1617644382045</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617644382045</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,12 +175,29 @@
     <MESSAGE value=" added .replace  to main.js" />
     <MESSAGE value="changed welcoming message" />
     <MESSAGE value="added game.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="added game.js" />
+    <MESSAGE value="remove training js code" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove training js code" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1617644154141">
+    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1617644381303">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1617644154141" />
+    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1617644381303" />
+    <state x="147" y="71" key="MergeDialog" timestamp="1617644307196">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="71" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1617644307196" />
+    <state x="481" y="129" key="MultipleFileMergeDialog" timestamp="1617644307203">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="481" y="129" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1617644307203" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1617644385697">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1617644385697" />
+    <state x="557" y="126" key="git4idea.branch.GitSmartOperationDialog" timestamp="1617644295420">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="557" y="126" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.824@0.0.1536.824" timestamp="1617644295420" />
   </component>
 </project>
